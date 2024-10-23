@@ -41,6 +41,28 @@
     border-radius: 5px;
     width: max-content;
 }
-.bold{
 
+@media screen and (max-width:1280px) {
+    .title{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .title{
+        font-size: 30px;
+    }
+    .imgContainer{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title{
+        font-size: 27px;
+    }
+}
+@media screen and (max-width:640px) {
+    .title{
+        font-size:26px;
+    }
 }
