@@ -17,7 +17,7 @@ export default function Home() {
         <Menu/>
       </div>
       
-       <Link href="/">Hello</Link>
+       <Link href="/"></Link>
     </div>
   );
 }

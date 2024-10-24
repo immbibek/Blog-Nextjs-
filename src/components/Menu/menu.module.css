@@ -93,52 +93,8 @@
     color: gray;
 }
 
-.categoryList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px; /* Adjust spacing between items */
-    padding: 20px;
-  }
-  
-  .categoryItem {
-    padding: 10px 25px; /* Add more padding for button-like appearance */
-    border-radius: 10px; /* Make the edges more rounded */
-    font-size: 1.1rem; /* Adjust font size */
-    font-weight: 500; /* Add some weight to the font */
-    text-align: center;
-    color: #333; /* Use a neutral color for text */
-    background-color: #f0f0f0; /* Default background color */
-    text-decoration: none;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add slight shadow */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
-  }
-  
-  .categoryItem:hover {
-    transform: translateY(-5px); /* Lift the category item on hover */
-  }
-  
-  .style {
-    background-color: #b3cde0; /* Light blue */
-  }
-  
-  .fashion {
-    background-color: #fbb4ae; /* Light pink */
-  }
-  
-  .food {
-    background-color: #ccebc5; /* Light green */
-  }
-  
-  .travel {
-    background-color: #fddbc7; /* Light peach */
-  }
-  
-  .culture {
-    background-color: #decbe4; /* Light lavender */
-  }
-  
-  .coding {
-    background-color: #fed9a6; /* Light yellow */
-  }
-  
+@media screen and(max-width:1024px) {
+    .container{
+        display: none;
+    }
+}
