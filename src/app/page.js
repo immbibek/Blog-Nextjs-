@@ -18,7 +18,6 @@ export default function Home() {
       </div>
       
        <Link href="/">Hello</Link>
-
     </div>
   );
 }

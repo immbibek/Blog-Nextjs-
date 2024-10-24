@@ -1,3 +1,8 @@
 .container{
+    margin-top: 15px;
     flex: 5;
+}
+
+.title{
+    margin: 50px 0px;
 }

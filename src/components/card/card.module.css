@@ -10,11 +10,32 @@
     height: 350px;
     position: relative;
   }
-.img{
-    object-fit:fill;
-    height: 300px;
+.image{
+    object-fit: cover;
 }
 
 .textContainer{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.date{
+    color: gray;
+}
+
+.category{
+    color: crimson;
+    font-weight: 500;
+}
+.desc{
+    font-size: 18px;
+    font-family: 300;
+    color: var(--softTextColor);
+}
+
+.link{
+    border-bottom: 1px solid crimson;
+    width: max-content;
+    padding: 2px 0px;
 }
