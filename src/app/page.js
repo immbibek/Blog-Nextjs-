@@ -16,7 +16,6 @@ export default function Home() {
         <CardList/>
         <Menu/>
       </div>
-      
        <Link href="/"></Link>
     </div>
   );
