@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020",
-    "next": "15.0.0"
+    "@tiptap/extension-image": "^2.9.1",
+    "@tiptap/extension-link": "^2.9.1",
+    "@tiptap/extension-youtube": "^2.9.1",
+    "@tiptap/pm": "^2.9.1",
+    "@tiptap/react": "^2.9.1",
+    "@tiptap/starter-kit": "^2.9.1",
+    "next": "^15.0.2-canary.6",
+    "next-auth": "^4.24.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-quill": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^8",
