@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.info}>
-           <Image src="/logo.png" alt='' width={50} height={50}/>
+           <Image src="/moon.png" alt='' width={50} height={50}/>
            <h1 className={styles.logoText}>Blog</h1>
            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident.</p>
       <div className={styles.icons}>
